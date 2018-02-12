@@ -1,58 +1,42 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:74xgxx
+LIBS:74xx
 LIBS:5050_ws2811
 LIBS:a4988-module
 LIBS:ac-dc
 LIBS:acs712
 LIBS:actel
 LIBS:adafruit
+LIBS:adc-dac
 LIBS:adxl345
 LIBS:allegro
 LIBS:Altera
 LIBS:AMS1117
 LIBS:analog_devices
+LIBS:analog_switches
 LIBS:ant
 LIBS:at24c64
+LIBS:atmel
+LIBS:audio
 LIBS:battery_management
 LIBS:bbd
 LIBS:bc56-12EWA
 LIBS:bosch
 LIBS:brooktre
+LIBS:cmos4000
 LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
 LIBS:cp2103
 LIBS:CP2102
+LIBS:cypress
 LIBS:dc-dc
+LIBS:device
 LIBS:dht11
+LIBS:digital-audio
 LIBS:diode
+LIBS:display
+LIBS:dsp
 LIBS:elec-unifil
 LIBS:er-oled-ssd1306
 LIBS:ESD_Protection
@@ -73,6 +57,8 @@ LIBS:hc541
 LIBS:hc-05
 LIBS:HC164
 LIBS:hlk-rm04
+LIBS:intel
+LIBS:interface
 LIBS:ir
 LIBS:irf7907
 LIBS:isp_6p
@@ -81,6 +67,7 @@ LIBS:L9110
 LIBS:LargeKickstarter
 LIBS:Lattice
 LIBS:LilyPad-Wearables
+LIBS:linear
 LIBS:LM2575
 LIBS:logo
 LIBS:logo-azura-wrench
@@ -94,14 +81,18 @@ LIBS:mcp1640b
 LIBS:mcp73831
 LIBS:MCP3208
 LIBS:mechanical
+LIBS:memory
+LIBS:microchip
 LIBS:microchip_dspic33dsc
 LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
 LIBS:microchip_pic18mcu
 LIBS:microchip_pic32mcu
+LIBS:microcontrollers
 LIBS:miniusb
 LIBS:motor_drivers
+LIBS:motorola
 LIBS:motors
 LIBS:mp2109dq
 LIBS:MP2307DN
@@ -113,15 +104,19 @@ LIBS:nrf24l01
 LIBS:nxp_armmcu
 LIBS:OF5032
 LIBS:onsemi
+LIBS:opto
 LIBS:Oscillators
+LIBS:philips
 LIBS:pl2303
 LIBS:pogopin
+LIBS:power
 LIBS:powerint
 LIBS:powerjack
 LIBS:Power_Management
 LIBS:pspice
 LIBS:pt4115
 LIBS:references
+LIBS:regul
 LIBS:relays
 LIBS:rfcom
 LIBS:RJ45-ENCODER
@@ -129,6 +124,7 @@ LIBS:rtl8196
 LIBS:rv3029c2
 LIBS:sensors
 LIBS:silabs
+LIBS:siliconi
 LIBS:smd oscillator
 LIBS:songle_relay
 LIBS:SparkFun-Aesthetics
@@ -162,16 +158,19 @@ LIBS:tcs3200d
 LIBS:tda5144
 LIBS:Teensy_3_and_LC_Series_Boards_v1.1
 LIBS:test
+LIBS:texas
 LIBS:texas-msp
 LIBS:tlv70233
 LIBS:tp4056
 LIBS:transf
+LIBS:transistors
 LIBS:ts812c
 LIBS:ttl_ieee
 LIBS:usb_a
 LIBS:usb-a-pcb
 LIBS:usb_ax2
 LIBS:User-Submitted
+LIBS:valves
 LIBS:video
 LIBS:w25q32bv
 LIBS:wiznet
@@ -181,11 +180,13 @@ LIBS:xc3s500evq100
 LIBS:xc6slx9-tqg144
 LIBS:XC9572-TQ100
 LIBS:Xicor
+LIBS:xilinx
 LIBS:xilinx_spartan3_virtex4_and_5
 LIBS:zetex
 LIBS:Zilog
 LIBS:рэс-49
 LIBS:тпг-1
+LIBS:RGBModule-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -276,7 +277,7 @@ U 1 1 59230A2F
 P 3900 4650
 F 0 "P1" H 3900 4900 50  0000 C CNN
 F 1 "CONN_01X04" V 4000 4650 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_S4B-PH-K_04x2.00mm_Angled" H 3900 4650 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x04_Pitch2.54mm" H 3900 4650 50  0001 C CNN
 F 3 "" H 3900 4650 50  0001 C CNN
 	1    3900 4650
 	-1   0    0    1   
