@@ -324,9 +324,9 @@
       (net 1 GND))
     (pad 6 smd oval (at 2.39776 -1.69926 180) (size 1.99898 1.09982) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ../../../../../home/david/Escritorio/hola/AB2_PLCC6_LED.wrl
+    (model ${KIPRJMOD}/3d_modules/AB2_PLCC6_LED_STRAIGHT.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.4 0.4 0.4))
+      (scale (xyz 0.3 0.3 0.3))
       (rotate (xyz 0 0 0))
     )
   )
