@@ -1,192 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:5050_ws2811
-LIBS:a4988-module
-LIBS:ac-dc
-LIBS:acs712
-LIBS:actel
-LIBS:adafruit
-LIBS:adc-dac
-LIBS:adxl345
-LIBS:allegro
-LIBS:Altera
-LIBS:AMS1117
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:ant
-LIBS:at24c64
-LIBS:atmel
-LIBS:audio
-LIBS:battery_management
-LIBS:bbd
-LIBS:bc56-12EWA
-LIBS:bosch
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:contrib
-LIBS:cp2103
-LIBS:CP2102
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:dht11
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:er-oled-ssd1306
-LIBS:ESD_Protection
-LIBS:esp8266ex
-LIBS:esp8266-module
-LIBS:fe
-LIBS:frizzy_ICs
-LIBS:ft232rq
-LIBS:ftdi
-LIBS:Gajda_opto
-LIBS:GeekAmmo
-LIBS:gennum
-LIBS:graphic
-LIBS:GS6300
-LIBS:gy-a4988_module
-LIBS:hc11
-LIBS:hc541
-LIBS:hc-05
-LIBS:HC164
-LIBS:hlk-rm04
-LIBS:intel
-LIBS:interface
-LIBS:ir
-LIBS:irf7907
-LIBS:isp_6p
-LIBS:l298n
-LIBS:L9110
-LIBS:LargeKickstarter
-LIBS:Lattice
-LIBS:LilyPad-Wearables
-LIBS:linear
-LIBS:LM2575
-LIBS:logo
-LIBS:logo-azura-wrench
-LIBS:lt1129cst
-LIBS:M25P05
-LIBS:max
-LIBS:max1538
-LIBS:maxim
-LIBS:mcp1640
-LIBS:mcp1640b
-LIBS:mcp73831
-LIBS:MCP3208
-LIBS:mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:miniusb
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:motors
-LIBS:mp2109dq
-LIBS:MP2307DN
-LIBS:mpu9250
-LIBS:msp430
-LIBS:na10-psu
-LIBS:nordicsemi
-LIBS:nrf24l01
-LIBS:nxp_armmcu
-LIBS:OF5032
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:pl2303
-LIBS:pogopin
-LIBS:power
-LIBS:powerint
-LIBS:powerjack
-LIBS:Power_Management
-LIBS:pspice
-LIBS:pt4115
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:RJ45-ENCODER
-LIBS:rtl8196
-LIBS:rv3029c2
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:smd oscillator
-LIBS:songle_relay
-LIBS:SparkFun-Aesthetics
-LIBS:SparkFun-AnalogIC
-LIBS:SparkFun-Boards
-LIBS:SparkFun-Capacitors
-LIBS:SparkFun-Connectors
-LIBS:SparkFun-DigitalIC
-LIBS:SparkFun-DiscreteSemi
-LIBS:SparkFun-Displays
-LIBS:SparkFun-Electromechanical
-LIBS:SparkFun-FreqCtrl
-LIBS:SparkFun-LED
-LIBS:SparkFun-Passives
-LIBS:SparkFun-PowerIC
-LIBS:SparkFun-Resistors
-LIBS:SparkFun-Retired
-LIBS:SparkFun-RF
-LIBS:SparkFun-Sensors
-LIBS:spiflash_16m
-LIBS:st1s10
-LIBS:stc12c5a60s2
-LIBS:stepper_drivers
-LIBS:stm8
-LIBS:stm32
-LIBS:STM32F100RBT6B
-LIBS:stpdn
-LIBS:supertex
-LIBS:switches
-LIBS:tcs3200d
-LIBS:tda5144
-LIBS:Teensy_3_and_LC_Series_Boards_v1.1
-LIBS:test
-LIBS:texas
-LIBS:texas-msp
-LIBS:tlv70233
-LIBS:tp4056
-LIBS:transf
-LIBS:transistors
-LIBS:ts812c
-LIBS:ttl_ieee
-LIBS:usb_a
-LIBS:usb-a-pcb
-LIBS:usb_ax2
-LIBS:User-Submitted
-LIBS:valves
-LIBS:video
-LIBS:w25q32bv
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:xc3s100etq144
-LIBS:xc3s500evq100
-LIBS:xc6slx9-tqg144
-LIBS:XC9572-TQ100
-LIBS:Xicor
-LIBS:xilinx
-LIBS:xilinx_spartan3_virtex4_and_5
-LIBS:zetex
-LIBS:Zilog
-LIBS:рэс-49
-LIBS:тпг-1
-LIBS:RGBModule-cache
+LIBS:RGBModule
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -260,16 +73,12 @@ Wire Wire Line
 	5750 3300 5950 3300
 Connection ~ 5950 3500
 Wire Wire Line
-	4850 3300 4500 3300
-Wire Wire Line
-	4850 3500 4500 3500
-Wire Wire Line
 	4850 3700 4500 3700
 Text GLabel 4500 3700 0    39   Input ~ 0
 RED
-Text GLabel 4500 3500 0    39   Input ~ 0
-GREEN
 Text GLabel 4500 3300 0    39   Input ~ 0
+GREEN
+Text GLabel 4500 3500 0    39   Input ~ 0
 BLUE
 $Comp
 L CONN_01X04 P1
@@ -346,4 +155,8 @@ Wire Wire Line
 	6600 7350 6600 7450
 Wire Wire Line
 	5950 3500 5750 3500
+Wire Wire Line
+	4500 3500 4850 3500
+Wire Wire Line
+	4500 3300 4850 3300
 $EndSCHEMATC
