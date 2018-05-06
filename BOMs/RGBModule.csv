@@ -1,0 +1,8 @@
+"Id";"Identificador";"Empaquetado";"Cantidad";"Identificación";"Suministrador y ref";
+1;"P1";"Pin_Header_Angled_1x04_Pitch2.54mm";1;"CONN_01X04";;;
+2;"REF**,REF**";"MountingHole_3.2mm_M3";2;"MountingHole_3.2mm_M3";;;
+3;"LED1";"LED-TRICOLOR-5050";1;"RGBLED5050";;;
+4;"R1,R2";"R_0805";2;"330";;;
+5;"R3";"R_0805";1;"470";;;
+6;"G***";"atom_medium";1;"LOGO";;;
+7;"G***";"web";1;"LOGO";;;
