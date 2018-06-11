@@ -1,4 +1,4 @@
-update=03/03/2018 23:32:18
+update=11/06/2018 19:53:40
 version=1
 last_client=kicad
 [pcbnew]
@@ -30,3 +30,13 @@ version=1
 LibDir=
 [eeschema/libraries]
 LibName1=lib_sch/RGBModule
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
