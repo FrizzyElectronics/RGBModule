@@ -3,7 +3,7 @@
   (general
     (links 9)
     (no_connects 0)
-    (area 128.964974 90.106499 146.875501 114.621026)
+    (area 121.833857 72.072499 153.883143 126.809501)
     (thickness 1.6)
     (drawings 19)
     (tracks 30)
@@ -101,7 +101,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory CAM/))
+      (outputdirectory gerber/))
   )
 
   (net 0 "")
